@@ -32,18 +32,13 @@
             android:layout_height="244dp"
             android:src="@drawable/todoicon"
             />
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:onClick="selectFrag"
-            android:text="TO-DO LIST" />
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:onClick="selectFrag"
-            android:text="STATISTICS" />
+        <ListView
+            android:id="@+id/fragmentList"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+
+            android:background="@color/colorPrimaryDark">
+        </ListView>
 
     </LinearLayout>
 
