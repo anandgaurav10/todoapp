@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".EditTextActivity"/>
+        <activity android:name=".EditActivity"/>
+        <activity android:name=".CheckActivity"/>
     </application>
 
 </manifest>

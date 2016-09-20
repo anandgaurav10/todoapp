@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView listView;
     ArrayAdapter<String> listAdapter;
-    String fragmentArray[] = {"TO DO FRAGMENT", "STATICS"};
+    String fragmentArray[] = {"TO DO FRAGMENT", "STATISTICS"};
     DrawerLayout drawerLayout;
 
     @Override
